@@ -8,26 +8,37 @@ module.exports = {
       '/',
       {
         title: '端外基础',
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: false,
         children: [
           '/basis/protocol/'
         ]
       },
       {
         title: '核心前端',
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: false,
+        // initialOpenGroupIndex: -1,
         children: [
-          '/core/html-css/basis/',
-          '/core/html-css/css3/',
-          '/core/html-css/layout/',
-          // '/core/js',
+          {
+            title: 'HTML & CSS',
+            children: [
+              '/core/html-css/basis/',
+              '/core/html-css/css3/',
+              '/core/html-css/layout/'
+            ]
+          },
+          {
+            title: 'JavaScript',
+            children: [
+              // '/core/js',
+            ]
+          }
         ]
       },
       {
         title: 'Node.js',
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: false,
         children: [
-          '/node-js/server/http/',
+          '/node-js/server/http/'
         ]
       }
     ]
