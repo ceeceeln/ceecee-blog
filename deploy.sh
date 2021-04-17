@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy new'
 
-git push -f https://github.com/bbbonnana/bbblog.github.io.git master
+git push -f https://github.com/bbbonnana/bbbonnana.github.io.git master
 
 cd -

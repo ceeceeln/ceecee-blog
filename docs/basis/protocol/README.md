@@ -116,7 +116,7 @@ HTTP 1.0 默认不支持长连接，其所保持的TCP连接只能处理一个�
 
 ## HTTPS
 
-![https流程](/Users/links6b/PROJECT/TEST/vuePress/bbblog/docs/basis/protocol/https.png)
+![https流程](./https.png)
 
 可参考 <a href="https://juejin.cn/post/6844903504046211079" target="_blank">文章1</a> 或 <a href="https://juejin.cn/post/6844903599303032845" target="_blank">文章2</a>。
 
