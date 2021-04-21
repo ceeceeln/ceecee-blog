@@ -35,6 +35,7 @@ CSS实现水平垂直居中的方式大概有：
 
 - #### display: table-cell
 
+
       - td默认继承tr的高度，且平分table的宽度。
       - 若table（display:table）不存在，给td设置的宽高不能用百分比只能用准确的数值。
       - 给td设置vertical-align: middle; td元素里面(除float、position:absolute)所有的块级、非块级元素都会相对于td垂直居中。

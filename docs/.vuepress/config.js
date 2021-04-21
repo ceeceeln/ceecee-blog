@@ -26,12 +26,19 @@ module.exports = {
               '/core/html-css/layout/'
             ]
           },
-          {
-            title: 'JavaScript',
-            children: [
-              // '/core/js',
-            ]
-          }
+          // {
+          //   title: 'JavaScript',
+          //   children: [
+          //     // '/core/js',
+          //   ]
+          // }
+        ]
+      },
+      {
+        title: '前端工程',
+        collapsable: false,
+        children: [
+          '/development/build/webpack/'
         ]
       },
       {
