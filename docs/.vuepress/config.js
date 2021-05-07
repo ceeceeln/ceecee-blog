@@ -42,6 +42,13 @@ module.exports = {
         ]
       },
       {
+        title: '前端框架',
+        collapsable: false,
+        children: [
+          '/framework/vue/source/'
+        ]
+      },
+      {
         title: 'Node.js',
         collapsable: false,
         children: [
