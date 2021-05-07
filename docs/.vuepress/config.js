@@ -26,12 +26,14 @@ module.exports = {
               '/core/html-css/layout/'
             ]
           },
-          // {
-          //   title: 'JavaScript',
-          //   children: [
-          //     // '/core/js',
-          //   ]
-          // }
+          {
+            title: 'JavaScript',
+            children: [
+              '/core/js/js-core/',
+              '/core/js/es6/',
+              '/core/js/regex/'
+            ]
+          }
         ]
       },
       {
